@@ -12,9 +12,9 @@ public class roznecwiczenia {
             calkowite[a]=a;
             potegi [a]= a*a;
             roznice [a]=potegi [a]- potegi [a-1];
-            System.out.print("potęgujemy -" +calkowite[a]+"   ");
-            System.out.print("potęga :" + potegi[a]+"    ");
-            System.out.println("różnica-" + roznice[a] +"   ");
+            System.out.print("potęgujemy:  " +calkowite[a]+"  ");
+            System.out.print("potęga:  " + potegi[a]+"   ");
+            System.out.println("różnica:  " + roznice[a] +"  ");
         }
     }
 }
