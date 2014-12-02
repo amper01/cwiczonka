@@ -1,0 +1,20 @@
+//dzialania na liczbach. Potegi, roznice poteg i inne - pewnie dopisywane z biegiem czasu. 
+/**
+ * Created by KDuc on 2014-12-02.
+ */
+public class roznecwiczenia {
+    public static void main(String[] args) {
+        int [] calkowite = new int[200];
+        int [] potegi = new int [200];
+        int [] roznice = new int [200];
+        int a;
+            for (a=1; a<200; a++) {
+            calkowite[a]=a;
+            potegi [a]= a*a;
+            roznice [a]=potegi [a]- potegi [a-1];
+            System.out.print("potęgujemy -" +calkowite[a]+"   ");
+            System.out.print("potęga :" + potegi[a]+"    ");
+            System.out.println("różnica-" + roznice[a] +"   ");
+        }
+    }
+}
