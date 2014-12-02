@@ -1,4 +1,2 @@
-cwiczonka
-=========
 
-Moje cwiczonka z javy. 
+This a simple trainings code wrote by me. 
